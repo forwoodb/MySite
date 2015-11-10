@@ -193,7 +193,7 @@ h1, h2 {
 
 /* links */
 a {
-  color:  #c00;
+  color:  #fff;
 }
 
 /* nav link */
@@ -202,6 +202,6 @@ nav a, nav a:visited {
 }
 
 /* selected nav link */
-nav a.selected, nav a:hover {
+nav a.selected, nav a:hover, a:hover, {
   color:  #700;
 }
