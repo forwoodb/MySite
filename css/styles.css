@@ -135,6 +135,7 @@ PAGE:  PORTFOLIO
   padding:  5%;
   font-size:  0.75em;
   color:  #bdc3c7;
+  background-color: #ffd;
 }
 
 
@@ -171,14 +172,14 @@ COLORS
 
 /* site body */
 body {
-  background-color:  #fff;
+  background-color:  #005;
   color:  #999;
 }
 
 /* red header */
 header{
-  background:  #c00;
-  border-color:  #900;
+  background:  #005;
+  border-color:  #009;
 }
 
 /* nav background on mobile */
