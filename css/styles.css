@@ -203,6 +203,6 @@ nav a, nav a:visited {
 }
 
 /* selected nav link */
-nav a.selected, nav a:hover, a:hover, {
+nav a.selected, nav a:hover, a:hover {
   color:  #700;
 }
