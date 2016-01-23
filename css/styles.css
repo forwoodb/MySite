@@ -6,32 +6,33 @@
 GENERAL
 ***********************************/
 
+/* site body */
 body {
   font-family:  'Open Sans', sans-serif;
+  color:  #999;
+  background-color:  #fff;
 }
 
 #wrapper {
-  max-width: 940px;
   margin: 0 auto;
   padding: 0 5%;
+  max-width: 940px;
 }
 
+/* links */
 a {
   text-decoration:  none;
+  color:  #fff;
 }
 
 img {
   max-width:  100%;
 }
 
-h3 {
-  margin:  0 0 1em 0;
-}
-
 
 
 /**********************************
-HEADING
+HEADER
 ***********************************/
 
 header {
@@ -39,6 +40,8 @@ header {
   margin:  0 0 30px 0;
   padding:  5px 0 0 0;
   width:  100%;
+  background:  #005;
+  border-color:  #009;
 }
 
 header h1 {
@@ -47,49 +50,69 @@ header h1 {
 
 
 #logo {
-  text-align: center;
   margin: 0;
+  text-align: center;
 }
 
-h1{
-  font-family:  'Changa One', sans-serif;
+/* logo text */
+h1, h2 {
+  color:  #fff;
+}
+
+h1 {
   margin:  15px 0;
+  font-family:  'Changa One', sans-serif;
   font-size:  1.75em;
   font-weight:  normal;
   line-height:  0.8em;
 }
 
 h2 {
-  font-size:  0.75em;
   margin:  -5px 0 0;
+  font-size:  0.75em;
   font-weight:  normal;
 }
 
 
 
 /**********************************
-NAVIGATION
+HEADER NAVIGATION
 ***********************************/
 
 nav {
-  text-align:  center;
   padding:  10px 0;
   margin:  20px 0 0;
+  text-align:  center;
 }
 
 nav ul {
-  list-style:  none;
   margin:  0 10px;
   padding:  0;
+  list-style:  none;
 }
 
 nav li {
   display:  inline-block;
 }
 
+/* nav link */
 nav a {
-  font-weight:  800;
   padding:  15px 10px;
+  font-weight:  800;
+}
+
+nav a, nav a:visited {
+  color:  #fff;
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover, a:hover {
+  color:  #700;
+}
+
+/* nav background on mobile */
+nav {
+  background:  #900;
 }
 
 
@@ -99,17 +122,17 @@ FOOTER
 ***********************************/
 
 footer {
-  font-size:  0.75em;
-  text-align:  center;
   clear:  both;
   padding-top:  50px;
+  font-size:  0.75em;
+  text-align:  center;
   color:  #ccc;
 }
 
 .social-icon {
+  margin:  0 5px;
   width:  20px;
   height:  20px;
-  margin:  0 5px;
 }
 
 /**********************************
@@ -124,10 +147,10 @@ PAGE:  PORTFOLIO
 
 #gallery li {
   float:  left;
-  width:  45%;
   margin:  2.5%;
-  background-color:  #f5f5f5;
+  width:  45%;
   color:  #bdc3c7;
+  background-color:  #f5f5f5;
 }
 
 #gallery li a p {
@@ -146,8 +169,8 @@ PAGE:  ABOUT
 
 .profile-photo {
   display:  block;
-  max-width:  150px;
   margin:  0 auto 30px;
+  max-width:  150px;
   border-radius:  100%;
 }
 
@@ -158,51 +181,8 @@ PAGE:  CONTACT
 ***********************************/
 
 .contact-info  {
-  list-style: none;
-  padding: 0;
   margin: 0;
+  padding: 0;
   font-size: 0.9em;
-}
-
-
-
-/**********************************
-COLORS
-***********************************/
-
-/* site body */
-body {
-  background-color:  #005;
-  color:  #999;
-}
-
-/* red header */
-header{
-  background:  #005;
-  border-color:  #009;
-}
-
-/* nav background on mobile */
-nav {
-  background:  #900;
-}
-
-/* logo text */
-h1, h2 {
-  color:  #fff;
-}
-
-/* links */
-a {
-  color:  #fff;
-}
-
-/* nav link */
-nav a, nav a:visited {
-  color:  #fff;
-}
-
-/* selected nav link */
-nav a.selected, nav a:hover, a:hover {
-  color:  #700;
+  list-style: none;
 }
