@@ -1,7 +1,7 @@
-/* {
+* {
   border: 1px solid red;
 }
-*/
+
 /**********************************
 GENERAL
 ***********************************/
@@ -40,7 +40,7 @@ header {
   margin:  0 0 30px 0;
   padding:  5px 0 0 0;
   width:  100%;
-  background:  #005;
+  background:  #6791e5;
   border-color:  #009;
 }
 
@@ -107,12 +107,12 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover, a:hover {
-  color:  #700;
+  color:  #006;
 }
 
 /* nav background on mobile */
 nav {
-  background:  #900;
+  background:  #009;
 }
 
 
@@ -156,6 +156,7 @@ PAGE:  PORTFOLIO
 #gallery li a p {
   margin:  0;
   padding:  5%;
+  height: 34px;
   font-size:  0.75em;
   color:  #bdc3c7;
   background-color: #ffd;
